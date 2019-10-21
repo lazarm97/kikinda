@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://lazar.000webhostapp.com/</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/index.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/istorija.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/privreda.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/kultura.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/sport.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/galerija.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lazar.000webhostapp.com/autor.html</loc>
+  <lastmod>2017-12-05T19:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>

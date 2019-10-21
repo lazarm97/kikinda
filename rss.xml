@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<item>
+  <title>Naslovna</title>
+  <link>https://lazar.000webhostapp.com/index.html</link>
+  <description>Град Кикинда налази се на простору који је богат траговима старих и ишчезлих култура и цивилизација.<br/>
+  Многобројни археолошки налази сведоче да су овде људи живели још у времену од пре седам хиљада година. 
+  </description>
+</item> 
+<item>
+  <title>Galerija</title>
+  <link>https://lazar.000webhostapp.com/galerija.html</link>
+  <description>Nove slike dodate na nas sajt!
+  </description>
+</item> 
+<item>
+  <title>O autoru</title>
+  <link>https://lazar.000webhostapp.com/autor.html</link>
+  <description>Dodate su informacije o autoru!
+  </description>
+</item> 
+<item>
+  <title>Sport</title>
+  <link>https://lazar.000webhostapp.com/sport.html</link>
+  <description>Dodate nove informacije o tradiciji sporta u Kikindi!
+  </description>
+</item> 
+</channel>
+</rss>

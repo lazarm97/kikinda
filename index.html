@@ -1,0 +1,159 @@
+<html>
+<head>
+	<title>Кикинда</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<meta name="keywords" content="Kikinda, Кöкényd, Gross Kikinda, Velika Kikinda, Istorija grada" />
+	<meta name="description" content="Kikinda je grad u Srbiji u Severnobanatskom okrugu." />
+	<meta name="author" content="Lazar Marojkin"/>
+	<meta name="copyright" content="Lazar Marojkin"/>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="images/ikonica.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script async defer	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDgh_kEG-p2Oy9qFfU3zJIGblE2mJKMro&callback=initMap"></script> 
+	<script type="text/javascript">
+		function initMap() {
+			 var lokacija = {lat: 45.8245, lng: 20.459166};
+
+			 var map = new
+			google.maps.Map(document.getElementById('mapa'),
+			 {
+			 zoom: 11,
+			 center: lokacija
+			 });
+
+			 var marker = new google.maps.Marker({
+			 position: lokacija,
+			 map: map
+		 });
+		}
+	</script>
+</head>
+<body>
+	<div id="okvir">
+		<div id="gore">
+			<div id="logo">
+				<a href="index.html">
+					<img src="images/logo.jpg" title="Logo Kikinde" alt="Kikinda logo"/>
+				</a>
+			</div>
+			<div id="naslov">
+				<h1>Кикинда</h1><br>
+				<div id="logovanje">
+					<form action="/action_page.php">
+						<input type="text" name="ime" placeholder="Име" maxlength="20">
+						<input type="text" name="prezime" placeholder="Презиме" maxlength="20">
+						<input type="submit" value="Пријави се">
+					</form> 
+				</div>
+				<br>
+				<div id="pretraga">
+					<form action="/action_page.php">
+						<input type="text" name="pretraga" placeholder="Претражи" size="30" maxlength="33">
+						<input type="submit" value="Претражи">
+					</form> 
+				</div>
+			</div>
+			<div id="lala">
+				<img src="images/lala.jpg" id="lalaslika" title="Lala sa ludajom" alt="Lala sa ludajom"/>
+			</div>
+			<div class="cleaner"></div>
+		</div>
+		<div id="dole">
+			<div id="meni">
+				<ul>
+					<li>
+						<a href="#" class="aktivan">НАСЛОВНА</a>
+					</li>
+					<li>
+						<a href="istorija.html">ИСТОРИЈА</a>
+					</li>
+					<li>
+						<a href="privreda.html">ПРИВРЕДА</a>
+					</li>
+					<li>
+						<a href="kultura.html">КУЛТУРА</a>
+					</li>
+					<li>
+						<a href="sport.html">СПОРТ</a>
+					</li>
+					<li>
+						<a href="galerija.html">ГАЛЕРИЈА</a>
+					</li>
+					<li>
+						<a href="autor.html">О АУТОРУ</a>
+					</li>
+				</ul>
+			</div>
+			<div id="sadrzaj">
+				<div class="blok" id="left">
+					<div class="tekst" id="ime">
+						<h2>O Кикинди</h2>
+					</div>
+					<div id="slika">
+						<img src="images/opstina.jpg" id="index" title="slika opstine" alt="slika opstine"/>
+					</div>
+					<div class="tekst" id="opis">
+						<p>Град Кикинда налази се на простору који је богат траговима старих и ишчезлих култура и цивилизација. 
+						Многобројни археолошки налази сведоче да су овде људи живели још у времену од пре седам хиљада година. 
+						Међутим, континуитет тог трајања често је нарушаван и прекидан. Људи су се насељавали и одлазили, бивали и нестајали, 
+						а све у зависности од многобројних и различитих историјских околности.</p>
+					</div>
+				</div>
+				<div class="blok" id="right">
+					<div class="tekst" id="ime">
+						<h2>Назив</h2>
+					</div>
+					<div id="slika">
+						<img src="images/kikinda.jpg" id="index" title="slika grada" alt="slika grada"/>
+					</div>
+					<div class="tekst" id="opis">
+						<p>Назив Кикинда први пут је забележен почетком 15. века и то у облику Кöкényd, а највероватније је означавао, 
+						заједно са називом Ецехида, име више мањих насеља, односно добара угарских, а затим и српских деспота. 
+						Данашњи назив града јавља се први пут на географској карти 1718. године као Gross Kikinda и тада не обележава насеље , 
+						већ ненасељен простор-пустару. Иначе, придев Gross, Nagy или Велика у немачкој, мађарској, односно српској варијанти, 
+						био је у званичној употреби у имену града све до краја 1947. године. Етимолошко порекло имена Кикинде није у потпуности разјашњено. 
+						Најчешће се објашњава мађарским називом коровске биљке kökény (трњина) и старим словенским, 
+						односно прасловенским кореном кик (глава).</p>
+					</div>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+				<div id="mapa">
+				</div>
+		</div>
+		<div id="footer">
+			<p>Copyright &copy Lazar Marojkin</p>
+			<div id="rssmap">
+				<a href="rss.xml" target="_blank">RSS</a>
+				|
+				<a href="sitemap.xml" target="_blank">Site map</a>
+			</div>
+			<div id="meni1">
+				<ul>
+					<li>
+						<a href="index.html">Насловна</a>
+					</li>
+					<li>
+						<a href="istorija.html">Историја</a>
+					</li>
+					<li>
+						<a href="privreda.html">Привреда</a>
+					</li>
+					<li>
+						<a href="kultura.html">Култура</a>
+					</li>
+					<li>
+						<a href="sport.html">Спорт</a>
+					</li>
+					<li>
+						<a href="galerija.html">Галерија</a>
+					</li>
+					<li>
+						<a href="autor.html">О аутору</a>
+					</li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
